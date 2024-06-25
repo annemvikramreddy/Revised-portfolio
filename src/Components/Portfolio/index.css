@@ -402,11 +402,17 @@ img {
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
+}
+
+.footer_paragraph{
+  font-size: bold;
+  margin:10px;
 }
 
 .footer__social {
   margin-bottom: var(--mb-4);
+  margin-top:10px;
 }
 
 .footer__icon {
@@ -554,3 +560,6 @@ img {
   font-weight:bold;
 }
 
+.github-right{
+  margin-left: 20px;
+}

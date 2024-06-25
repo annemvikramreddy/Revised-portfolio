@@ -120,11 +120,13 @@ class Portfolio extends React.Component {
                     <section className="home bd-grid" id="home">
                     <div className="home__data">
             <h1 className="home__title">Hi,<br/>I'am <span className="home__title-color">Vikram reddy</span><br/> Full Stack Developer</h1>
-            <a href="#" className="button">Contact</a>
+            <a href="#contact" className="button">Contact</a>
+            <a href="https://res.cloudinary.com/dtaene1s4/raw/upload/v1719355088/Resume_Recent_1_crsbq4.docx" className="button github-right">Download Resume</a>
+
         </div>
             <div className="home__social">
                 <a href="https://www.linkedin.com/in/vikram-reddy-annem-2ab60920b/" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/annemvikramreddy" className="home__social-icon"><i className='bx bxl-github'></i></a>
+                <a href="https://github.com/annemvikramreddy" className="home__social-icon "><i className='bx bxl-github'></i></a>
             </div>
         
             <div className="home__img">
@@ -145,7 +147,7 @@ class Portfolio extends React.Component {
                 
                 <div>
                     <h2 className="about__subtitle">I'am Vikram</h2>
-                    <p className="about__text">As a Full Stack Developer, I bring a deep passion for technology and a wealth of expertise to every project I undertake. With a <span className="highlight">Master's degree</span> in <span className="highlight">Computer Science</span> from Florida Atlantic University and a <span className="highlight">Bachelor's degree</span> from Mahatma Gandhi Institute of Technology, I've cultivated a strong foundation in web development and technology. I thrive on challenges and am always eager to embrace new technologies, continually seeking opportunities for growth and learning. Beyond my academic achievements, I've had the privilege of serving as a <span className="highlight">team lead at KDM Engineers Group</span>, where I not only led a team but also had the joy of <span className="highlight">mentoring and hiring interns,</span> fostering a collaborative and supportive environment. Additionally, I'm immensely proud of my contributions to a <span className="highlight">laboratory management project,</span> where our team developed personalized software that streamlined processes and enhanced efficiency. With over <span className="highlight">250 commits on GitHub in 2022,</span> my dedication to delivering high-quality solutions is evident in every endeavor I undertake. I'm excited about the opportunity to continue making meaningful contributions to impactful projects in the future.</p>           
+                    <p className="about__text">Full Stack Developer with three years of experience, skilled at developing advanced web applications. My front-end expertise includes HTML, CSS, JavaScript, React.js, and Next.js, which I use to create dynamic interfaces for dashboards, registration forms, and workflow management systems. In backend development, I utilize Node.js and Express.js to build secure and efficient microservices, focusing on functionalities critical for financial management and tracking customer interactions. I am proficient in managing both SQL and NoSQL databases such as MongoDB, Firebase, and DynamoDB, ensuring robust data integrity and performance. Most of my recent projects have utilized AWS services, specifically EC2, S3, Lambda, and API Gateway, which have been pivotal in deploying scalable and efficient applications. My extensive experience with the Google Cloud Platform (GCP), particularly with Firebase Functions and Compute Engine, complements my cloud expertise. My collaborative work in development teams highlights my ability to innovate and address technical challenges effectively, demonstrating my commitment to delivering high-quality software solutions.</p>           
                 </div>                                   
             </div>
         
@@ -229,74 +231,75 @@ class Portfolio extends React.Component {
                     <h2 className="section-title">Projects</h2>
 
 <div className="work__container bd-grid">
-    <a href="https://github.com/annemvikramreddy/TypescriptLearnings" className="work__img">
+    <a href="https://food-app-eta-pearl.vercel.app/" className="work__img">
         
-        <h1 className="heading">Finance logger </h1>
-        <p className="heading">A finance logger app built with TypeScript for tracking and managing financial transactions</p>
+        <h1 className="heading">Pumpkin-Spice </h1>
+        <p className="heading">Developed an end-to-end food ordering full stack application with distinct features  </p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/TypescriptLearnings" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_typescript-finance-codingadventures-activity-7161131813392801792-dcPZ?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> Typecript basics</p>
+        <a href="https://github.com/annemvikramreddy/food-app.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        <a href="https://food-app-eta-pearl.vercel.app/" className="heading home__social-icon"><i className='bx bx-link-external'></i></a>
+        <p><i className='bx bx-chevrons-left'></i> Visit & Order <i className='bx bx-chevrons-right'></i></p>
         </div>
     </a>
     <a href="" className="work__img">
         <img src="./work2.jpg" alt=""/>
     </a>
-    <a href="" className="work__img">
-    <h1 className="heading">Nextjs-basics</h1>
-        <p className="heading">Experimenting server side rendering with Nextjs</p>
+    <a href="https://music-seven-phi.vercel.app/" className="work__img">
+    <h1 className="heading">Spotify design page</h1>
+        <p className="heading">Mostly concentrated on audio features for frictionless play, pause and next song   </p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/NextJSBasics" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_nextjs-react-webdevelopment-activity-7161577951233306624-vUcO?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> Nextjs learnings</p>
+        <a href="https://github.com/annemvikramreddy/react-deploy" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        <a href="https://music-seven-phi.vercel.app/" className="heading home__social-icon"><i className='bx bx-link-external'></i></a>
+        <p><i className='bx bx-chevrons-left'></i> play & listen <i className='bx bx-chevrons-right'></i></p>
         </div>
     </a>
     <a href="" className="work__img">
         <img src="./work4.jpg" alt=""/>
     </a>
-    <a href="" className="work__img">
+    <a href="https://chatbot-topaz-ten.vercel.app/" className="work__img">
     <h1 className="heading">Chat-APP</h1>
-        <p className="heading">Leveraging LLMs like ChatGPT to create a Chatbot with API's</p>
+        <p className="heading">Leveraging LLMs like ChatGPT to create a Chatbot with API's and generated the past search history in sidebar</p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/chatapp.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_reactjs-tailwindcss-nodejs-activity-7140159441332527104-HrnE?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> Integrating ChatGPT</p>
+        <a href="https://github.com/annemvikramreddy/Chatbot.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        <a  href="https://chatbot-topaz-ten.vercel.app/" className="heading home__social-icon"><i className='bx bx-link-external'></i></a>
+        <p className="github-right"><i className='bx bx-chevrons-left'></i> Bring Out Curiosity <i className='bx bx-chevrons-right'></i></p>
         </div>
     </a>
     <a href="" className="work__img">
         <img src="./work6.jpg" alt=""/>
     </a>
-    <a href="" className="work__img">
-    <h1 className="heading">MineSweeper Game</h1>
-        <p className="heading">game played in my dads old phone as a child</p>
+    <a href="https://github.com/annemvikramreddy/graphql-local.git" className="work__img">
+    <h1 className="heading">GraphQL Server</h1>
+        <p className="heading">Used Apollo server and dived into different levels of interlink data connections to fetch</p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/chatapp.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_reactjs-tailwindcss-nodejs-activity-7140159441332527104-HrnE?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> Javascript learnings</p>
+        <a href="https://github.com/annemvikramreddy/graphql-local.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        {/* <a  className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a> */}
+        <p className="github-right"><i className='bx bx-chevrons-left'></i> Clone & Test repo <i className='bx bx-chevrons-right'></i></p>
         </div>
     </a>
     <a href="" className="work__img">
         <img src="./work1.jpg" alt=""/>
     </a>
-    <a href="" className="work__img">
-    <h1 className="heading">Restuarant webpage</h1>
-        <p className="heading">created a template for a good looking Restuarant</p>
+    <a href="https://netflix-design-two.vercel.app" className="work__img">
+    <h1 className="heading">Netflix Design</h1>
+        <p className="heading">integrated with movie TMDB APIs generated Images & Content by smooth level of authorization with firestore database </p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/chatapp.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_reactjs-tailwindcss-nodejs-activity-7140159441332527104-HrnE?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> HTML,CSS</p>
+        <a href="https://github.com/annemvikramreddy/netflix-design.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        <a  href="https://netflix-design-two.vercel.app" className="heading home__social-icon"><i className='bx bx-link-external'></i></a>
+        {/* <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_reactjs-tailwindcss-nodejs-activity-7140159441332527104-HrnE?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a> */}
+        <p><i className='bx bx-chevrons-left'></i> login & watch trailers <i className='bx bx-chevrons-right'></i></p>
         </div>
     </a>
     <a href="" className="work__img">
         <img src="./work3.jpg" alt=""/>
     </a>
-    <a href="" className="work__img">
-    <h1 className="heading">Ecommerce site</h1>
-        <p className="heading">seamlessly blending user-friendly design to enhance the online shopping experience."</p>
+    <a href="https://revised-portfolio-ten.vercel.app/" className="work__img">
+    <h1 className="heading">Portfolio </h1>
+        <p className="heading">page you are looking in right now, click on each card or external link icon for viewing the application</p>
         <div style={{ display: 'flex', alignItems: 'center', color:'lightslategray' }}>
-        <a href="https://github.com/annemvikramreddy/chatapp.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/posts/vikram-reddy-annem-2ab60920b_reactjs-tailwindcss-nodejs-activity-7140159441332527104-HrnE?utm_source=share&utm_medium=member_desktop" className="heading home__social-icon"><i className='bx bxl-linkedin'></i></a>
-        <p><i className='bx bx-chevrons-left'></i> React JS,Node JS</p>
+        <a href="https://github.com/annemvikramreddy/Revised-portfolio.git" className="home__social-icon heading"><i className='bx bxl-github'></i></a>
+        <a  href="https://revised-portfolio-ten.vercel.app/" className="heading home__social-icon"><i className='bx bx-link-external'></i></a>
+        <p><i className='bx bx-chevrons-left'></i> Suggest any changes<i className='bx bx-chevrons-right'></i></p>
         </div> 
     </a>
     <a href="" className="work__img">
@@ -320,6 +323,8 @@ class Portfolio extends React.Component {
 
                 <footer className="footer">
                 <p className="footer__title">Vikram</p>
+                <p className="footer__paragraph">5613062986</p>
+                <p className="footer__paragraph">annemvikramreddy@gmail.com</p>
       <div className="footer__social">
         <a href="#" className="footer__icon"><i className='bx bxl-facebook'></i></a>
         <a href="https://www.instagram.com/began_to_conquer/" className="footer__icon"><i className='bx bxl-instagram'></i></a>
