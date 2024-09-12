@@ -121,7 +121,7 @@ class Portfolio extends React.Component {
                     <div className="home__data">
             <h1 className="home__title">Hi,<br/>I'am <span className="home__title-color">Vikram reddy</span><br/> Full Stack Developer</h1>
             <a href="#contact" className="button">Contact</a>
-            <a href="https://res.cloudinary.com/dtaene1s4/raw/upload/v1723664146/Annem_Vikram_Reddy_Full_Stack_Developer_scyxbw.docx" className="button github-right"><i class='bx bxs-download'></i> Resume</a>
+            <a href="https://res.cloudinary.com/dtaene1s4/raw/upload/v1726151492/Final_resume_full_stack_srpusb.docx" className="button github-right"><i class='bx bxs-download'></i> Resume</a>
 
         </div>
             <div className="home__social">
