@@ -147,7 +147,7 @@ class Portfolio extends React.Component {
                 
                 <div>
                     <h2 className="about__subtitle">I'am Vikram</h2>
-                    <p className="about__text">Full Stack Developer with 5+ years of experience, skilled at developing advanced web applications. My front-end expertise includes HTML, CSS, JavaScript, React.js, and Next.js, which I use to create dynamic interfaces for dashboards, registration forms, and workflow management systems. In backend development, I utilize Node.js and Express.js to build secure and efficient microservices, focusing on functionalities critical for financial management and tracking customer interactions. I am proficient in managing both SQL and NoSQL databases such as MongoDB, Firebase, and DynamoDB, ensuring robust data integrity and performance. Most of my recent projects have utilized AWS services, specifically EC2, S3, Lambda, and API Gateway, which have been pivotal in deploying scalable and efficient applications. My extensive experience with the Google Cloud Platform (GCP), particularly with Firebase Functions and Compute Engine, complements my cloud expertise. My collaborative work in development teams highlights my ability to innovate and address technical challenges effectively, demonstrating my commitment to delivering high-quality software solutions.</p>           
+                    <p className="about__text">Full Stack Developer with around 7 years of experience building fast, scalable web applications using technologies like React, Next.js, TypeScript, Redux Toolkit, and Tailwind CSS on the frontend, and Spring Boot, Node.js, and NestJS on the backend. I have deep experience designing and developing microservices architectures with REST and GraphQL APIs, secured with JWT and OAuth 2.0. My work spans relational and NoSQL databases like PostgreSQL, MySQL, MongoDB, and DynamoDB. I build cloud-native apps on AWS and GCP using services like Lambda, S3, EC2, and Firebase, and manage containers with Docker and Kubernetes. I'm also skilled in setting up CI/CD pipelines using GitHub Actions, Jenkins, and GitLab CI for smooth deployments. I care about clean code, performance tuning, and testing with tools like Jest, Playwright, and React Testing Library—building end-to-end solutions that are reliable, maintainable, and cloud-ready.</p>           
                 </div>                                   
             </div>
         
@@ -323,8 +323,8 @@ class Portfolio extends React.Component {
 
                 <footer className="footer">
                 <p className="footer__title">Vikram</p>
-                <p className="footer__paragraph">5613062986</p>
-                <p className="footer__paragraph">annemvikramreddy@gmail.com</p>
+                <p className="footer__paragraph">4698277771</p>
+                <p className="footer__paragraph">vikramannem@gmail.com</p>
       <div className="footer__social">
         <a href="#" className="footer__icon"><i className='bx bxl-facebook'></i></a>
         <a href="https://www.instagram.com/began_to_conquer/" className="footer__icon"><i className='bx bxl-instagram'></i></a>
