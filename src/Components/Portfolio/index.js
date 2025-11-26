@@ -121,7 +121,7 @@ class Portfolio extends React.Component {
                     <div className="home__data">
             <h1 className="home__title">Hi,<br/>I'am <span className="home__title-color">Vikram reddy</span><br/> Full Stack Developer</h1>
             <a href="#contact" className="button">Contact</a>
-            <a href="https://res.cloudinary.com/dtaene1s4/raw/upload/v1753197978/VIKRAM_REDDY_pdzzdb.docx" className="button github-right"><i class='bx bxs-download'></i> Resume</a>
+            <a href="https://res.cloudinary.com/dtaene1s4/raw/upload/v1764177816/Vikram_React_dyvrkg.docx" className="button github-right"><i class='bx bxs-download'></i> Resume</a>
 
         </div>
             <div className="home__social">
@@ -185,7 +185,7 @@ class Portfolio extends React.Component {
                             <span className="skills__name">JavaScript</span>
                         </div>
                         <div className="skills__bar skills__js"></div>
-                        <div><span className="skills__percentage">65%</span></div>
+                        <div><span className="skills__percentage">95%</span></div>
                     </div>
 
                     <div className="skills__data">
@@ -194,7 +194,7 @@ class Portfolio extends React.Component {
                             <span className="skills__name">React JS</span>
                         </div>
                         <div className="skills__bar skills__ux"></div>
-                        <div><span className="skills__percentage">85%</span></div>
+                        <div><span className="skills__percentage">90%</span></div>
                     </div>
 
                     <div className="skills__data">
@@ -212,7 +212,7 @@ class Portfolio extends React.Component {
                             <span className="skills__name">Google Cloud Platform</span>
                         </div>
                         <div className="skills__bar skills__js"></div>
-                        <div><span className="skills__percentage">65%</span></div>
+                        <div><span className="skills__percentage">75%</span></div>
                     </div>
     
 
